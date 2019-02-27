@@ -1,6 +1,5 @@
 package com.example.myapplication;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast mes = Toast.makeText(MainActivity.this, "Hello world", Toast.LENGTH_LONG);
+                Toast mes = Toast.makeText(MainActivity.this, "Hello man!", Toast.LENGTH_LONG);
                 mes.show();
             }
         });
